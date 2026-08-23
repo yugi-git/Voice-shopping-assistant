@@ -118,7 +118,7 @@ src/
 - "Seasonal" and "substitute" suggestions come from a small static reference
   table rather than a live product/inventory feed.
 
-## Approach (≈200 words)
+## Approach 
 
 I built ChalkList as a React SPA using the browser's native Web Speech API —
 no paid speech service, works instantly in Chromium browsers. Transcripts
