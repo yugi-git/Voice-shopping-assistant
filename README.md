@@ -5,10 +5,10 @@ A voice-first shopping list. Speak naturally ("add milk", "I need three apples",
 categorizes the item, and keeps the list in sync.
 
 **Live app:** https://voice-shopping-assistant-cyan.vercel.app
+
 **Repo:** https://github.com/yugi-git/Voice-shopping-assistant.git
 
-(These are the two links to send back per the assessment email's Deliverables
-1 and 2 — fill them in once deployed and pushed.)
+
 
 ## Features
 
