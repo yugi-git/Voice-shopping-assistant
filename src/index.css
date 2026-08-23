@@ -1,0 +1,65 @@
+:root {
+  --bg: #182720;
+  --bg-grain: #1c2d24;
+  --surface: #24382c;
+  --surface-raised: #2b4234;
+  --chalk: #f3efe2;
+  --chalk-dim: #cdd4c6;
+  --accent: #e8b23d;
+  --accent-2: #e2634f;
+  --sage: #8fac93;
+  --line: rgba(243, 239, 226, 0.16);
+  --line-strong: rgba(243, 239, 226, 0.3);
+
+  --font-display: 'Caveat', cursive;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse at 20% -10%, rgba(232, 178, 61, 0.08), transparent 55%),
+    radial-gradient(ellipse at 90% 110%, rgba(226, 99, 79, 0.07), transparent 50%);
+  color: var(--chalk);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
