@@ -4,8 +4,8 @@ A voice-first shopping list. Speak naturally ("add milk", "I need three apples",
 "remove bread", "find toothpaste under $5") and the app parses the intent,
 categorizes the item, and keeps the list in sync.
 
-**Live app:** _add your deployed Vercel URL here_
-**Repo:** _add your GitHub repo URL here_
+**Live app:** https://voice-shopping-assistant-cyan.vercel.app
+**Repo:** https://github.com/yugi-git/Voice-shopping-assistant.git
 
 (These are the two links to send back per the assessment email's Deliverables
 1 and 2 — fill them in once deployed and pushed.)
@@ -100,7 +100,7 @@ src/
   firebase.js   optional Firestore sync, disabled unless configured
 ```
 
-## Limitations (given the 8-hour scope)
+## Limitations 
 
 - NLP parsing is rule-based (regex/keyword per language), not a trained
   model or translation layer — it covers the phrasings in the brief well
